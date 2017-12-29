@@ -1,0 +1,1964 @@
+@import url("https://fonts.googleapis.com/css?family=Mukta");
+
+.home-page {
+  width: 100vw;
+  height: 1325px;
+  background-color: transparent;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-flow: row;
+}
+
+.left-menu {
+  width: 40vw;
+  height: 1250px;
+  background-color: transparent;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-flow: column;
+}
+
+.item-container {
+  width: 100vw;
+  height: 1250px;
+  display: flex-start;
+  justify-content: flex-start;
+  max-width: 1600px;
+}
+
+.select-hero-container {
+  width: 100vw;
+  height: 400px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.doomfist-tab-off {
+  width: 20vw;
+  height: 50px;
+  background-color: #55463f;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: white;
+  border-bottom-right-radius: 25px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  background-position: right;
+  transition: all 0.5s ease-in-out;
+}
+
+.doomfist-tab-on {
+  width: 24vw;
+  height: 75px;
+  background-color: white;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #52453b;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  background-image: url("../../Assets/doomfist-tab.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.doomfist-tab-off:hover {
+  width: 24vw;
+  height: 75px;
+  background-color: white;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #55463f;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  animation: fade-in 0.5s ease-in-out forwards;
+  background-image: url("../../Assets/doomfist-tab.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  transition: all 0.5s ease-in-out;
+}
+
+.genji-tab-off {
+  width: 20vw;
+  height: 50px;
+  background-color: #528400;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  background-position: right;
+  transition: all 0.5s ease-in-out;
+}
+
+.genji-tab-off:hover {
+  width: 24vw;
+  height: 75px;
+  background-color: white;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #528400;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  animation: fade-in 0.5s ease-in-out forwards;
+  background-image: url("../../Assets/genji-tab.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  transition: all 0.5s ease-in-out;
+}
+
+.genji-tab-on {
+  width: 24vw;
+  height: 75px;
+  background-color: white;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #528400;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  background-image: url("../../Assets/genji-tab.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.mccree-tab-off {
+  width: 20vw;
+  height: 50px;
+  background-color: #840908;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  background-position: right;
+  transition: all 0.5s ease-in-out;
+}
+
+.mccree-tab-off:hover {
+  width: 24vw;
+  height: 75px;
+  background-color: white;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #840908;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  animation: fade-in 0.5s ease-in-out forwards;
+  background-image: url("../../Assets/mccree-tab.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  transition: all 0.5s ease-in-out;
+}
+
+.mccree-tab-on {
+  width: 24vw;
+  height: 75px;
+  background-color: white;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #840908;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  background-image: url("../../Assets/mccree-tab.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.pharah-tab-off {
+  width: 20vw;
+  height: 50px;
+  background-color: #093183;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  background-position: right;
+  transition: all 0.5s ease-in-out;
+}
+
+.pharah-tab-on {
+  width: 24vw;
+  height: 75px;
+  background-color: white;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #0c41ad;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  background-image: url("../../Assets/pharah-tab.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.pharah-tab-off:hover {
+  width: 24vw;
+  height: 75px;
+  background-color: white;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #093183;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  animation: fade-in 0.5s ease-in-out forwards;
+  background-image: url("../../Assets/pharah-tab.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  transition: all 0.5s ease-in-out;
+}
+
+.reaper-tab-off {
+  width: 20vw;
+  height: 50px;
+  background-color: #040404;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  background-position: right;
+  transition: all 0.5s ease-in-out;
+}
+
+.reaper-tab-on {
+  width: 24vw;
+  height: 75px;
+  background-color: white;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #020202;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  background-image: url("../../Assets/reaper-tab.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.reaper-tab-off:hover {
+  width: 24vw;
+  height: 75px;
+  background-color: white;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #040404;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  animation: fade-in 0.5s ease-in-out forwards;
+  background-image: url("../../Assets/reaper-tab.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  transition: all 0.5s ease-in-out;
+}
+
+.soldier-tab-off {
+  width: 20vw;
+  height: 50px;
+  background-color: #0b1c3f;
+  border-top-right-radius: 25px;
+  color: white;
+  border-bottom-right-radius: 25px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  background-position: right;
+  transition: all 0.5s ease-in-out;
+}
+
+.soldier-tab-on {
+  width: 24vw;
+  height: 75px;
+  background-color: white;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #0b1d42;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  background-image: url("../../Assets/soldier-tab.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.soldier-tab-off:hover {
+  width: 24vw;
+  height: 75px;
+  background-color: white;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #0b1c3f;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  animation: fade-in 0.5s ease-in-out forwards;
+  background-image: url("../../Assets/soldier-tab.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  transition: all 0.5s ease-in-out;
+}
+
+.sombra-tab-off {
+  width: 20vw;
+  height: 50px;
+  background-color: #79439f;
+  border-top-right-radius: 25px;
+  color: white;
+  border-bottom-right-radius: 25px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  background-position: right;
+  transition: all 0.5s ease-in-out;
+}
+
+.sombra-tab-on {
+  width: 24vw;
+  height: 75px;
+  background-color: white;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #76439c;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  background-image: url("../../Assets/sombra-tab.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.sombra-tab-off:hover {
+  width: 24vw;
+  height: 75px;
+  background-color: white;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #79439f;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  animation: fade-in 0.5s ease-in-out forwards;
+  background-image: url("../../Assets/sombra-tab.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  transition: all 0.5s ease-in-out;
+}
+
+.tracer-tab-off {
+  width: 20vw;
+  height: 50px;
+  background-color: #ff9700;
+  border-top-right-radius: 25px;
+  color: white;
+  border-bottom-right-radius: 25px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  background-position: right;
+  transition: all 0.5s ease-in-out;
+}
+
+.tracer-tab-on {
+  width: 24vw;
+  height: 75px;
+  background-color: white;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #ff9800;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  background-image: url("../../Assets/tracer-tab.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.tracer-tab-off:hover {
+  width: 24vw;
+  height: 75px;
+  background-color: white;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #ff9700;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  animation: fade-in 0.5s ease-in-out forwards;
+  background-image: url("../../Assets/tracer-tab.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  transition: all 0.5s ease-in-out;
+}
+
+.bastion-tab-off {
+  width: 20vw;
+  height: 50px;
+  background-color: #34521b;
+  border-top-right-radius: 25px;
+  color: white;
+  border-bottom-right-radius: 25px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  background-position: right;
+  transition: all 0.5s ease-in-out;
+}
+
+.bastion-tab-on {
+  width: 24vw;
+  height: 75px;
+  background-color: white;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #34511b;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  background-image: url("../../Assets/bastion-tab.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.bastion-tab-off:hover {
+  width: 24vw;
+  height: 75px;
+  background-color: white;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #34521b;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  animation: fade-in 0.5s ease-in-out forwards;
+  background-image: url("../../Assets/bastion-tab.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  transition: all 0.5s ease-in-out;
+}
+
+.hanzo-tab-off {
+  width: 20vw;
+  height: 50px;
+  background-color: #292929;
+  border-top-right-radius: 25px;
+  color: white;
+  border-bottom-right-radius: 25px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  background-position: right;
+  transition: all 0.5s ease-in-out;
+}
+
+.hanzo-tab-on {
+  width: 24vw;
+  height: 75px;
+  background-color: white;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #292929;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  background-image: url("../../Assets/hanzo-tab.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.hanzo-tab-off:hover {
+  width: 24vw;
+  height: 75px;
+  background-color: white;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #292929;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  animation: fade-in 0.5s ease-in-out forwards;
+  background-image: url("../../Assets/hanzo-tab.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  transition: all 0.5s ease-in-out;
+}
+
+.junkrat-tab-off {
+  width: 20vw;
+  height: 50px;
+  background-color: #441113;
+  border-top-right-radius: 25px;
+  color: white;
+  border-bottom-right-radius: 25px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  background-position: right;
+  transition: all 0.5s ease-in-out;
+}
+
+.junkrat-tab-on {
+  width: 24vw;
+  height: 75px;
+  background-color: white;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #441113;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  background-image: url("../../Assets/junkrat-tab.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.junkrat-tab-off:hover {
+  width: 24vw;
+  height: 75px;
+  background-color: white;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #441113;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  animation: fade-in 0.5s ease-in-out forwards;
+  background-image: url("../../Assets/junkrat-tab.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  transition: all 0.5s ease-in-out;
+}
+
+.mei-tab-off {
+  width: 20vw;
+  height: 50px;
+  background-color: #76b5d1;
+  border-top-right-radius: 25px;
+  color: white;
+  border-bottom-right-radius: 25px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  background-position: right;
+  transition: all 0.5s ease-in-out;
+}
+
+.mei-tab-on {
+  width: 24vw;
+  height: 75px;
+  background-color: white;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #76b5d1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  background-image: url("../../Assets/mei-tab.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.mei-tab-off:hover {
+  width: 24vw;
+  height: 75px;
+  background-color: white;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #76b5d1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  animation: fade-in 0.5s ease-in-out forwards;
+  background-image: url("../../Assets/mei-tab.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  transition: all 0.5s ease-in-out;
+}
+
+.torbjorn-tab-off {
+  width: 20vw;
+  height: 50px;
+  background-color: #ce1012;
+  border-top-right-radius: 25px;
+  color: white;
+  border-bottom-right-radius: 25px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  background-position: right;
+  transition: all 0.5s ease-in-out;
+}
+
+.torbjorn-tab-on {
+  width: 24vw;
+  height: 75px;
+  background-color: white;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #bb0c0d;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  background-image: url("../../Assets/torbjorn-tab.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.torbjorn-tab-off:hover {
+  width: 24vw;
+  height: 75px;
+  background-color: white;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #ce1012;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  animation: fade-in 0.5s ease-in-out forwards;
+  background-image: url("../../Assets/torbjorn-tab.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  transition: all 0.5s ease-in-out;
+}
+
+.widowmaker-tab-off {
+  width: 20vw;
+  height: 50px;
+  background-color: #7b2789;
+  border-top-right-radius: 25px;
+  color: white;
+  border-bottom-right-radius: 25px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  background-position: right;
+  transition: all 0.5s ease-in-out;
+}
+
+.widowmaker-tab-on {
+  width: 24vw;
+  height: 75px;
+  background-color: white;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #7b2789;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  background-image: url("../../Assets/widowmaker-tab.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.widowmaker-tab-off:hover {
+  width: 24vw;
+  height: 75px;
+  background-color: white;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #7b2789;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  animation: fade-in 0.5s ease-in-out forwards;
+  background-image: url("../../Assets/widowmaker-tab.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  transition: all 0.5s ease-in-out;
+}
+
+.dva-tab-off {
+  width: 20vw;
+  height: 50px;
+  background-color: #234e8f;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: white;
+  border-bottom-right-radius: 25px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  background-position: right;
+  transition: all 0.5s ease-in-out;
+}
+
+.dva-tab-on {
+  width: 24vw;
+  height: 75px;
+  background-color: white;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #254f90;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  background-image: url("../../Assets/dva-tab.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.dva-tab-off:hover {
+  width: 24vw;
+  height: 75px;
+  background-color: white;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #234e8f;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  animation: fade-in 0.5s ease-in-out forwards;
+  background-image: url("../../Assets/dva-tab.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  transition: all 0.5s ease-in-out;
+}
+
+.orisa-tab-off {
+  width: 20vw;
+  height: 50px;
+  background-color: #6a5f45;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: white;
+  border-bottom-right-radius: 25px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  background-position: right;
+  transition: all 0.5s ease-in-out;
+}
+
+.orisa-tab-on {
+  width: 24vw;
+  height: 75px;
+  background-color: white;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #79cb16;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  background-image: url("../../Assets/orisa-tab.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.orisa-tab-off:hover {
+  width: 24vw;
+  height: 75px;
+  background-color: white;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #6a5f45;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  animation: fade-in 0.5s ease-in-out forwards;
+  background-image: url("../../Assets/orisa-tab.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  transition: all 0.5s ease-in-out;
+}
+
+.reinhardt-tab-off {
+  width: 20vw;
+  height: 50px;
+  background-color: #474747;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: white;
+  border-bottom-right-radius: 25px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  background-position: right;
+  transition: all 0.5s ease-in-out;
+}
+
+.reinhardt-tab-on {
+  width: 24vw;
+  height: 75px;
+  background-color: white;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #474747;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  background-image: url("../../Assets/reinhardt-tab.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.reinhardt-tab-off:hover {
+  width: 24vw;
+  height: 75px;
+  background-color: white;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #474747;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  animation: fade-in 0.5s ease-in-out forwards;
+  background-image: url("../../Assets/reinhardt-tab.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  transition: all 0.5s ease-in-out;
+}
+
+.roadhog-tab-off {
+  width: 20vw;
+  height: 50px;
+  background-color: #d6ac44;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: white;
+  border-bottom-right-radius: 25px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  background-position: right;
+  transition: all 0.5s ease-in-out;
+}
+
+.roadhog-tab-on {
+  width: 24vw;
+  height: 75px;
+  background-color: white;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #dcb64d;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  background-image: url("../../Assets/roadhog-tab.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.roadhog-tab-off:hover {
+  width: 24vw;
+  height: 75px;
+  background-color: white;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #d6ac44;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  animation: fade-in 0.5s ease-in-out forwards;
+  background-image: url("../../Assets/roadhog-tab.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  transition: all 0.5s ease-in-out;
+}
+
+.winston-tab-off {
+  width: 20vw;
+  height: 50px;
+  background-color: #676d73;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: white;
+  border-bottom-right-radius: 25px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  background-position: right;
+  transition: all 0.5s ease-in-out;
+}
+
+.winston-tab-on {
+  width: 24vw;
+  height: 75px;
+  background-color: white;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #2e3239;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  background-image: url("../../Assets/winston-tab.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.winston-tab-off:hover {
+  width: 24vw;
+  height: 75px;
+  background-color: white;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #676d73;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  animation: fade-in 0.5s ease-in-out forwards;
+  background-image: url("../../Assets/winston-tab.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  transition: all 0.5s ease-in-out;
+}
+
+.zarya-tab-off {
+  width: 20vw;
+  height: 50px;
+  background-color: #ff51e7;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: white;
+  border-bottom-right-radius: 25px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  background-position: right;
+  transition: all 0.5s ease-in-out;
+}
+
+.zarya-tab-on {
+  width: 24vw;
+  height: 75px;
+  background-color: white;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #de95db;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  background-image: url("../../Assets/zarya-tab.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.zarya-tab-off:hover {
+  width: 24vw;
+  height: 75px;
+  background-color: white;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #ff51e7;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  animation: fade-in 0.5s ease-in-out forwards;
+  background-image: url("../../Assets/zarya-tab.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  transition: all 0.5s ease-in-out;
+}
+
+.ana-tab-off {
+  width: 20vw;
+  height: 50px;
+  background-color: #c8e0ec;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: white;
+  border-bottom-right-radius: 25px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  background-position: right;
+  transition: all 0.5s ease-in-out;
+}
+
+.ana-tab-on {
+  width: 24vw;
+  height: 75px;
+  background-color: white;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #c8e0ec;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  background-image: url("../../Assets/ana-tab.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.ana-tab-off:hover {
+  width: 24vw;
+  height: 75px;
+  background-color: white;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #c8e0ec;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  animation: fade-in 0.5s ease-in-out forwards;
+  background-image: url("../../Assets/ana-tab.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  transition: all 0.5s ease-in-out;
+}
+
+.lucio-tab-off {
+  width: 20vw;
+  height: 50px;
+  background-color: #79cb16;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: white;
+  border-bottom-right-radius: 25px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  background-position: right;
+  transition: all 0.5s ease-in-out;
+}
+
+.lucio-tab-on {
+  width: 24vw;
+  height: 75px;
+  background-color: white;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #7bcd16;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  background-image: url("../../Assets/lucio-tab.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.lucio-tab-off:hover {
+  width: 24vw;
+  height: 75px;
+  background-color: white;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #79cb16;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  animation: fade-in 0.5s ease-in-out forwards;
+  background-image: url("../../Assets/lucio-tab.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  transition: all 0.5s ease-in-out;
+}
+
+.mercy-tab-off {
+  width: 20vw;
+  height: 50px;
+  background-color: #eedb4d;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: white;
+  border-bottom-right-radius: 25px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  background-position: right;
+  transition: all 0.5s ease-in-out;
+}
+
+.mercy-tab-on {
+  width: 24vw;
+  height: 75px;
+  background-color: white;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #e5d560;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  background-image: url("../../Assets/mercy-tab.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.mercy-tab-off:hover {
+  width: 24vw;
+  height: 75px;
+  background-color: white;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #eedb4d;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  animation: fade-in 0.5s ease-in-out forwards;
+  background-image: url("../../Assets/mercy-tab.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  transition: all 0.5s ease-in-out;
+}
+
+.symmetra-tab-off {
+  width: 20vw;
+  height: 50px;
+  background-color: #2c9bca;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: white;
+  border-bottom-right-radius: 25px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  background-position: right;
+  transition: all 0.5s ease-in-out;
+}
+
+.symmetra-tab-on {
+  width: 24vw;
+  height: 75px;
+  background-color: white;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #1e71aa;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  background-image: url("../../Assets/symmetra-tab.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.symmetra-tab-off:hover {
+  width: 24vw;
+  height: 75px;
+  background-color: white;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #2c9bca;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  animation: fade-in 0.5s ease-in-out forwards;
+  background-image: url("../../Assets/symmetra-tab.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  transition: all 0.5s ease-in-out;
+}
+
+.zenyatta-tab-off {
+  width: 20vw;
+  height: 50px;
+  background-color: #f77b00;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: white;
+  border-bottom-right-radius: 25px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  background-position: right;
+  transition: all 0.5s ease-in-out;
+}
+
+.zenyatta-tab-on {
+  width: 24vw;
+  height: 75px;
+  background-color: white;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #f77b00;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  background-image: url("../../Assets/zenyatta-tab.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.zenyatta-tab-off:hover {
+  width: 24vw;
+  height: 75px;
+  background-color: white;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #f77b00;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
+  animation: fade-in 0.5s ease-in-out forwards;
+  background-image: url("../../Assets/zenyatta-tab.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  transition: all 0.5s ease-in-out;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-device-width: 426px) {
+  .doomfist-tab-off {
+    background-image: none !important;
+    font-size: 6px !important;
+  }
+  .doomfist-tab-on {
+    background-image: none;
+    background-color: white;
+    border: 2px solid #55463f;
+    font-size: 8px !important;
+  }
+  .genji-tab-off {
+    background-image: none !important;
+        font-size: 6px !important;
+  }
+  .genji-tab-on {
+    background-image: none;
+    background-color: white;
+    border: 2px solid #528400;
+    font-size: 8px !important;
+  }
+
+  .mccree-tab-off {
+    background-image: none !important;
+        font-size: 6px !important
+  }
+  .mccree-tab-on {
+    background-image: none;
+    background-color: white;
+    border: 2px solid #840908;
+    font-size: 8px !important;
+  }
+
+  .pharah-tab-off {
+    background-image: none !important;
+        font-size: 6px !important
+  }
+  .pharah-tab-on {
+    background-image: none;
+    background-color: white;
+    border: 2px solid #093183;
+    font-size: 8px !important;
+  }
+
+  .reaper-tab-off {
+    background-image: none !important;
+        font-size: 6px !important;
+  }
+  .reaper-tab-on {
+    background-image: none;
+    background-color: white;
+    border: 2px solid #040404;
+    font-size: 8px !important;
+  }
+
+  .soldier-tab-off {
+    background-image: none !important;
+        font-size: 6px !important;
+  }
+  .soldier-tab-on {
+    background-image: none;
+    background-color: white;
+    border: 2px solid #093183;
+    font-size: 8px !important;
+  }
+
+  .sombra-tab-off {
+    background-image: none !important;
+        font-size: 6px !important;
+  }
+  .sombra-tab-on {
+    background-image: none;
+    background-color: white;
+    border: 2px solid #79439F;
+    font-size: 8px !important;
+  }
+
+  .tracer-tab-off {
+    background-image: none !important;
+        font-size: 6px !important;
+  }
+  .tracer-tab-on {
+    background-image: none;
+    background-color: white;
+    border: 2px solid #FF9700;
+    font-size: 8px !important;
+  }
+
+  .bastion-tab-off {
+    background-image: none !important;
+    font-size: 6px !important;
+  }
+
+  .bastion-tab-on {
+    background-image: none;
+    background-color: white;
+    border: 2px solid #34521B;
+    font-size: 8px !important;
+  }
+
+  .hanzo-tab-off {
+    background-image: none !important;
+        font-size: 6px !important;
+  }
+  .hanzo-tab-on {
+    background-image: none;
+    background-color: white;
+    border: 2px solid #292929;
+    font-size: 8px !important;
+  }
+
+  .reaper-tab-off {
+    background-image: none !important;
+        font-size: 6px !important;
+  }
+  .reaper-tab-on {
+    background-image: none;
+    background-color: white;
+    border: 2px solid #040404;
+    font-size: 8px !important;
+  }
+
+  .junkrat-tab-off {
+    background-image: none !important;
+        font-size: 6px !important;
+  }
+  .junkrat-tab-on {
+    background-image: none;
+    background-color: white;
+    border: 2px solid #441113;
+    font-size: 8px !important;
+  }
+
+  .mei-tab-off {
+    background-image: none !important;
+        font-size: 6px !important;
+  }
+  .mei-tab-on {
+    background-image: none;
+    background-color: white;
+    border: 2px solid #76B5D1;
+    font-size: 8px !important;
+  }
+
+  .torbjorn-tab-off {
+    background-image: none !important;
+        font-size: 6px !important;
+  }
+  .torbjorn-tab-on {
+    background-image: none;
+    background-color: white;
+    border: 2px solid #CE1012;
+    font-size: 8px !important;
+  }
+
+.widowmaker-tab-off {
+  background-image: none !important;
+      font-size: 6px !important;
+}
+.widowmaker-tab-on {
+  background-image: none;
+  background-color: white;
+  border: 2px solid #7B2789;
+  font-size: 6px !important;
+}
+
+.dva-tab-off {
+  background-image: none !important;
+      font-size: 6px !important;
+}
+.dva-tab-on {
+  background-image: none;
+  background-color: white;
+  border: 2px solid #234E8F;
+  font-size: 8px !important;
+}
+
+.orisa-tab-off {
+  background-image: none !important;
+      font-size: 6px !important;
+}
+.orisa-tab-on {
+  background-image: none;
+  background-color: white;
+  border: 2px solid #6A5F45;
+  font-size: 8px !important;
+  color: #6A5F45;
+}
+
+.reinhardt-tab-off {
+  background-image: none !important;
+      font-size: 6px !important;
+}
+.reinhardt-tab-on {
+  background-image: none;
+  background-color: white;
+  border: 2px solid #474747;
+  font-size: 8px !important;
+}
+
+
+.roadhog-tab-off {
+  background-image: none !important;
+      font-size: 6px !important;
+}
+.roadhog-tab-on {
+  background-image: none;
+  background-color: white;
+  border: 2px solid #D6AC44;
+  font-size: 8px !important;
+}
+
+
+.winston-tab-off {
+  background-image: none !important;
+      font-size: 6px !important;
+}
+.winston-tab-on {
+  background-image: none;
+  background-color: white;
+  border: 2px solid #676D73;
+  font-size: 8px !important;
+}
+
+
+.zarya-tab-off {
+  background-image: none !important;
+      font-size: 6px !important;
+}
+.zarya-tab-on {
+  background-image: none;
+  background-color: white;
+  border: 2px solid #FF51E7;
+  font-size: 8px !important;
+}
+
+
+.ana-tab-off {
+  background-image: none !important;
+      font-size: 6px !important;
+}
+.ana-tab-on {
+  background-image: none;
+  background-color: white;
+  border: 2px solid #C8E0EC;
+  font-size: 8px !important;
+}
+
+
+.lucio-tab-off {
+  background-image: none !important;
+      font-size: 6px !important;
+}
+.lucio-tab-on {
+  background-image: none;
+  background-color: white;
+  border: 2px solid #79CB16;
+  font-size: 8px !important;
+}
+
+
+.mercy-tab-off {
+  background-image: none !important;
+      font-size: 6px !important;
+}
+.mercy-tab-on {
+  background-image: none;
+  background-color: white;
+  border: 2px solid #EEDB4D;
+  font-size: 8px !important;
+}
+
+.symmetra-tab-off {
+  background-image: none !important;
+      font-size: 6px !important;
+}
+.symmetra-tab-on {
+  background-image: none;
+  background-color: white;
+  border: 2px solid #2C9BCA;
+  font-size: 7px !important;
+}
+
+.zenyatta-tab-off {
+  background-image: none !important;
+      font-size: 6px !important;
+}
+.zenyatta-tab-on {
+  background-image: none;
+  background-color: white;
+  border: 2px solid #F77B00;
+  font-size: 8px !important;
+}
+}
+
+
+@media screen and (min-device-width: 768px) {
+
+  .doomfist-tab-off {
+
+    font-size: 10px !important;
+  }
+  .doomfist-tab-on {
+
+    background-color: white;
+    border: 2px solid #55463f;
+    font-size: 10px !important;
+  }
+  .genji-tab-off {
+
+        font-size: 10px !important;
+  }
+  .genji-tab-on {
+
+    background-color: white;
+    border: 2px solid #528400;
+    font-size: 10px !important;
+  }
+
+  .mccree-tab-off {
+
+        font-size: 10px !important;
+  }
+  .mccree-tab-on {
+
+    background-color: white;
+    border: 2px solid #840908;
+    font-size: 10px !important;
+  }
+
+  .pharah-tab-off {
+
+        font-size: 10px !important;
+  }
+  .pharah-tab-on {
+
+    background-color: white;
+    border: 2px solid #093183;
+    font-size: 10px !important;
+  }
+
+  .reaper-tab-off {
+
+        font-size: 10px !important;
+  }
+  .reaper-tab-on {
+
+    background-color: white;
+    border: 2px solid #040404;
+    font-size: 10px !important;
+  }
+
+  .soldier-tab-off {
+
+        font-size: 10px !important;
+  }
+  .soldier-tab-on {
+
+    background-color: white;
+    border: 2px solid #093183;
+    font-size: 10px !important;
+  }
+
+  .sombra-tab-off {
+
+        font-size: 10px !important;
+  }
+  .sombra-tab-on {
+
+    background-color: white;
+    border: 2px solid #79439F;
+    font-size: 10px !important;
+  }
+
+  .tracer-tab-off {
+        font-size: 10px !important;
+  }
+  .tracer-tab-on {
+    background-color: white;
+    border: 2px solid #FF9700;
+    font-size: 10px !important;
+  }
+
+  .bastion-tab-off {
+    font-size: 10px !important;
+  }
+
+  .bastion-tab-on {
+    background-color: white;
+    border: 2px solid #34521B;
+    font-size: 10px !important;
+  }
+
+  .hanzo-tab-off {
+        font-size: 10px !important;
+  }
+  .hanzo-tab-on {
+    background-color: white;
+    border: 2px solid #292929;
+    font-size: 10px !important;
+  }
+
+  .reaper-tab-off {
+        font-size: 10px !important;
+  }
+  .reaper-tab-on {
+    background-color: white;
+    border: 2px solid #040404;
+    font-size: 10px !important;
+  }
+
+  .junkrat-tab-off {
+        font-size: 10px !important;
+  }
+  .junkrat-tab-on {
+    background-color: white;
+    border: 2px solid #441113;
+    font-size: 10px !important;
+  }
+
+  .mei-tab-off {
+        font-size: 10px !important;
+  }
+  .mei-tab-on {
+    background-color: white;
+    border: 2px solid #76B5D1;
+    font-size: 10px !important;
+  }
+
+  .torbjorn-tab-off {
+        font-size: 10px !important;
+  }
+  .torbjorn-tab-on {
+    background-color: white;
+    border: 2px solid #CE1012;
+    font-size: 10px !important;
+  }
+
+.widowmaker-tab-off {
+      font-size: 10px !important;
+}
+.widowmaker-tab-on {
+  background-color: white;
+  border: 2px solid #7B2789;
+  font-size: 10px !important;
+}
+
+.dva-tab-off {
+      font-size: 10px !important;
+}
+.dva-tab-on {
+  background-color: white;
+  border: 2px solid #234E8F;
+  font-size: 10px !important;
+}
+
+.orisa-tab-off {
+      font-size: 10px !important;
+}
+.orisa-tab-on {
+  background-color: white;
+  border: 2px solid #6A5F45;
+  font-size: 10px !important;
+  color: #6A5F45;
+}
+
+.reinhardt-tab-off {
+      font-size: 10px !important;
+}
+.reinhardt-tab-on {
+  background-color: white;
+  border: 2px solid #474747;
+  font-size: 10px !important;
+}
+
+
+.roadhog-tab-off {
+      font-size: 10px !important;
+}
+.roadhog-tab-on {
+  background-color: white;
+  border: 2px solid #D6AC44;
+  font-size: 10px !important;
+}
+
+
+.winston-tab-off {
+      font-size: 10px !important;
+}
+.winston-tab-on {
+  background-color: white;
+  border: 2px solid #676D73;
+  font-size: 10px !important;
+}
+
+
+.zarya-tab-off {
+      font-size: 10px !important;
+}
+.zarya-tab-on {
+  background-color: white;
+  border: 2px solid #FF51E7;
+  font-size: 10px !important;
+}
+
+
+.ana-tab-off {
+      font-size: 10px !important;
+}
+.ana-tab-on {
+  background-color: white;
+  border: 2px solid #C8E0EC;
+  font-size: 10px !important;
+}
+
+
+.lucio-tab-off {
+      font-size: 10px !important;
+}
+.lucio-tab-on {
+  background-color: white;
+  border: 2px solid #79CB16;
+  font-size: 10px !important;
+}
+
+
+.mercy-tab-off {
+      font-size: 10px !important;
+}
+.mercy-tab-on {
+  background-color: white;
+  border: 2px solid #EEDB4D;
+  font-size: 10px !important;
+}
+
+.symmetra-tab-off {
+      font-size: 10px !important;
+}
+.symmetra-tab-on {
+  background-color: white;
+  border: 2px solid #2C9BCA;
+  font-size: 10px !important;
+}
+
+.zenyatta-tab-off {
+      font-size: 10px !important;
+}
+.zenyatta-tab-on {
+  background-color: white;
+  border: 2px solid #F77B00;
+  font-size: 10px !important;
+}
+}

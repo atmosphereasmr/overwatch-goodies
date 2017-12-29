@@ -1,0 +1,286 @@
+.genji-item {
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  border: 1px solid #d1d1d1;
+  -webkit-box-shadow: 10px 10px 29px -11px rgba(0,0,0,1);
+  -moz-box-shadow: 10px 10px 29px -11px rgba(0,0,0,1);
+  box-shadow: 10px 10px 29px -11px rgba(0,0,0,1);
+  animation: fade-in 1s forwards;
+}
+
+.genji-title-container-on {
+  width: 100%;
+  height: 75px;
+  background-image: url('../../Assets/title.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  position: relative;
+  bottom: 75%;
+  opacity: 0.85;
+  animation: glow, grow 0.25s ease-in-out forwards;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: inherit;
+}
+
+.genji-title-container-off {
+  height: 75px;
+  background-image: url('../../Assets/title.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+    background-position: left;
+  position: relative;
+  bottom: 75%;
+  opacity: 0.85;
+  animation: glow-off, grow-off 0.25s ease-in-out forwards;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.25s ease-in-out;
+  pointer-events: none;
+}
+
+.genji-title-container-begin {
+  height: 75px;
+  width: 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 0s;
+  color: transparent;
+  position: relative;
+  bottom: 75%;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+}
+
+.genji-title-text-on {
+ color: white;
+  transition: all 0.25s 0.25s ease-in-out;
+}
+
+.genji-title-text-off {
+  color: transparent;
+}
+
+.genji-price-container-on {
+  width: 100%;
+  height: 75px;
+  background-image: url('../../Assets/title-price.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+    background-position: left;
+  position: relative;
+  bottom: 70%;
+  opacity: 0.85;
+  animation: glow, grow 0.25s 0.1s ease-in-out forwards;
+  animation-fill-mode: backwards;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: inherit;
+}
+
+.genji-price-container-off {
+  height: 75px;
+  background-image: url('../../Assets/title-price.png');
+  background-size: cover;
+    background-position: left;
+  background-repeat: no-repeat;
+  position: relative;
+  bottom: 275px;
+  opacity: 0.85;
+  animation: glow-off, grow-off 0.25s ease-in-out forwards;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.25s ease-in-out;
+  pointer-events: none;
+}
+
+.genji-price-container-begin {
+  height: 75px;
+  width: 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 0s;
+  color: transparent;
+  position: relative;
+  bottom: 300px;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+}
+
+.genji-goodie-row-margin {
+  width: 30%;
+  height: 27%;
+  background-color: transparent;
+  border-radius: 25px;
+  margin-top: 25px;
+  margin-left: 25px;
+  transition: all 0.25s ease-in-out;
+}
+
+.genji-goodie-row-margin:hover {
+  width: 32%;
+  height: 29%;
+  background-color: transparent;
+  border-radius: 25px;
+  margin-top: 25px;
+  margin-left: 25px;
+  transition: all 0.25s ease-in-out;
+}
+
+.main-product {
+  width: 100%;
+  height: 1000px;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1600px;
+}
+
+.buy-button-on {
+  width: 150px;
+  height: 50px;
+  border: 2px solid white;
+  border-radius: 5px;
+  font-size: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: red;
+  transition: all 0.25s 0.25s ease-in-out;
+  font-size: inherit;
+}
+
+.buy-button-on:hover {
+  width: 150px;
+  height: 60px;
+  border: 2px solid white;
+  border-radius: 5px;
+  font-size: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: orange;
+  transition: all 0.25s 0.25s ease-in-out;
+  font-size: inherit;
+}
+
+.buy-button-off {
+  width: 0px;
+  height: 0px;
+  border: 2px transparent white;
+  border-radius: 25px;
+  pointer-events: none;
+  font-size: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: transparent;
+  background-color: transparent;
+  transition: all 0.25s ease-in-out;
+  pointer-events: none;
+  font-size: inherit;
+}
+
+.pic-fade {
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  border: 1px solid #d1d1d1;
+  -webkit-box-shadow: 10px 10px 29px -11px rgba(0,0,0,1);
+  -moz-box-shadow: 10px 10px 29px -11px rgba(0,0,0,1);
+  box-shadow: 10px 10px 29px -11px rgba(0,0,0,1);
+  animation: fade-in-pic 1s forwards;
+  opacity: 1;
+}
+
+.pic-fade-back {
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  border: 1px solid #d1d1d1;
+  -webkit-box-shadow: 10px 10px 29px -11px rgba(0,0,0,1);
+  -moz-box-shadow: 10px 10px 29px -11px rgba(0,0,0,1);
+  box-shadow: 10px 10px 29px -11px rgba(0,0,0,1);
+  animation: fade-back 1s forwards;
+  opacity: 0.5;
+}
+
+@keyframes glow {
+  0% { opacity: 0 }
+  100% { opacity: 0.85; }
+}
+
+@keyframes grow {
+  0% { width: 0 }
+  100% { width: 100%; }
+}
+
+@keyframes glow-off {
+  0% { opacity: 0.85 }
+  100% { opacity: 0.0; }
+}
+
+@keyframes grow-off {
+  0% { width: 100%; }
+  100% { width: 0px; }
+}
+
+@keyframes fade-in-pic {
+  0% { opacity: 1}
+  100% { opacity: 0.5}
+}
+
+@keyframes fade-back {
+  0% { opacity: 0.5}
+  100% { opacity: 1}
+}
+
+@media screen and (max-device-width: 427px) {
+  .genji-goodie-row-margin {width: 90%}
+  .genji-goodie-row-margin:hover {width: 90%}
+  .genji-title-container-on {font-size: 16px; font-style: bold;}
+  .genji-title-container-off {font-size: 16px}
+  .genji-price-container-on {font-size: 16px; font-style: italic;}
+  .genji-price-container-off {font-size: 16px}
+}
+
+@media screen and (min-device-width: 768px) {
+  .genji-goodie-row-margin {width: 90%}
+  .genji-goodie-row-margin:hover {width: 90%}
+  .genji-title-container-on {font-size: 30px; font-style: bold;}
+  .genji-title-container-off {font-size: 30px}
+  .genji-price-container-on {font-size: 30px; font-style: italic;}
+  .genji-price-container-off {font-size: 30px}
+}
+
+@media screen and (min-device-width: 1024px) {
+  .genji-goodie-row-margin {width: 45%}
+  .genji-goodie-row-margin:hover {width: 45%}
+  .genji-title-container-on {font-size: 20px; font-style: bold;}
+  .genji-title-container-off {font-size: 20px}
+  .genji-price-container-on {font-size: 20px; font-style: italic;}
+  .genji-price-container-off {font-size: 20px}
+}
+
+@media screen and (min-device-width: 1440px) {
+  .genji-goodie-row-margin {width: 30%}
+  .genji-goodie-row-margin:hover {width: 30%}
+  .genji-title-container-on {font-size: 20px; font-style: bold;}
+  .genji-title-container-off {font-size: 20px}
+  .genji-price-container-on {font-size: 20px; font-style: italic;}
+  .genji-price-container-off {font-size: 20px}
+}

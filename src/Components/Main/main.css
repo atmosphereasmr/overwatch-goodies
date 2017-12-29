@@ -1,0 +1,17 @@
+.description-on {
+  width: 22%;
+  height: 300px;
+  background-color: red;
+  position: absolute;
+  z-index: 1;
+}
+
+.description-off {
+  width: 22%;
+  height: 300px;
+  background-color: transparent;
+  color: transparent;
+  position: absolute;
+  z-index: 1;
+  pointer-events: none;
+}

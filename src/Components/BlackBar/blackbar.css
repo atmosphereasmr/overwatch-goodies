@@ -1,0 +1,23 @@
+.blackbar {
+  width: 100vw;
+  height: 379px;
+  background: linear-gradient(white, black);
+}
+
+@media screen and (max-device-width: 427px) {
+  .blackbar {
+    display: none;
+  }
+}
+
+@media screen and (min-device-width: 768px) {
+  .blackbar {position: absolute; top: 3100px;}
+}
+
+@media screen and (min-device-width: 1024px) {
+  .blackbar {position: absolute; top: 1900px;}
+}
+
+@media screen and (min-device-width: 1440px) {
+  .blackbar {position: inherit;}
+}

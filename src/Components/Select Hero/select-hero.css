@@ -1,0 +1,87 @@
+.select-container {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+}
+
+#hover:hover {
+  transform: scale(1.1);
+  transition: all 0.25s ease-in-out;
+  filter: brightness(120%);
+}
+
+.select-img {
+  width: 100%;
+  height: 62px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  opacity: 0.9;
+}
+
+.offense-heroes {
+ height: 75px;
+ width: 100%;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+}
+
+.offense-heroes > img {
+ width: 75px;
+ height: 75px;
+ padding: 2px;
+}
+
+.defense-heroes {
+ height: 75px;
+ width: 100%;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+}
+
+.defense-heroes > img {
+ width: 75px;
+ height: 75px;
+ padding: 2px;
+}
+
+.tank-heroes {
+ height: 75px;
+ width: 100%;
+ display: flex;
+ flex-direction: center;
+ align-items: center;
+ justify-content: center;
+}
+
+.tank-heroes > img {
+ width: 75px;
+ height: 75px;
+ padding: 2px;
+}
+
+.support-heroes {
+ height: 75px;
+ width: 100%;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+}
+
+.support-heroes > img {
+ width: 75px;
+ height: 75px;
+ padding: 2px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
