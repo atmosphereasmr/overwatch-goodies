@@ -76,6 +76,9 @@ export default class Genji extends Component {
             onMouseEnter={() => this.itemHoverOn("item-1", "item-2", "title-1", "title-2", "buy-2", "pic-1")}
             onMouseLeave={() => this.itemHoverOff("item-1", "item-2", "title-1", "title-2", "buy-2", "pic-1")}
           >
+          <div className="facebook-share-icon">
+          <div className="twitter-share-icon"></div>
+          </div>
               <img
                 className="genji-item"
                 id="pic-1"

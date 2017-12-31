@@ -85,8 +85,8 @@ box-shadow: 10px 10px 20px -14px rgba(0,0,0,0.75);
 }
 
 .shopping-cart-off {
-  width: 55%;
-  height: 50%;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   background-color: red;
   border: 3px solid white;
@@ -100,8 +100,8 @@ box-shadow: 10px 10px 20px -14px rgba(0,0,0,0.75);
 }
 
 .shopping-cart-on {
-  width: 55%;
-  height: 50%;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   background-color: red;
   border: 3px solid white;
@@ -114,8 +114,8 @@ box-shadow: 10px 10px 20px -14px rgba(0,0,0,0.75);
 }
 
 .shopping-cart-on:hover {
-  width: 55%;
-  height: 50%;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   background-color: green;
   border: 3px solid white;

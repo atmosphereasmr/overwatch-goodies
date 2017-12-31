@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
-import { Helmet } from "react-helmet";
+import DocumentMeta from "react-document-meta"
+import Favicon from 'react-favicon'
 import "./App.css";
 
 import HeroSelect from "./Components/Select Hero/select-hero";
@@ -8,6 +9,20 @@ import HomeHeaderBar from "./Components/Home Header Bar/home-header-bar";
 import HomePage from "./Components/Home Page/homepage";
 import SelectHero from './Components/Select Hero/select-hero'
 import BlackBar from './Components/BlackBar/blackbar'
+
+const meta = {
+  title: 'Overwatch Goodies',
+  description: 'Overwatch gift, T-shirts, action figures and much more!',
+  canonical: 'http://www.overwatchgoodies.com',
+  meta: {
+      charset: 'utf-8',
+      name: {
+          keywords: 'overwatch,blizzard,dva,tracer,mei,widowmaker,gifts,goodies'
+      }
+  }
+  url: 'http://www.overwatchgoodies.com',
+  image: 'https://bnetcmsus-a.akamaihd.net/cms/blog_header/mi/MIGMDUEK4S2N1496699695461.jpg'
+}
 
 function doIt() {
   if (document.body.scrollTop > 100) {
@@ -19,16 +34,8 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Helmet>
-          <meta charset="UTF-8" />
-          <meta name="Overwatch Goodies" content="Overwatch Gifts, Shirts, Toys and more!" />
-          <meta name="keywords" content="Overwatch,Gifts,Shop,Blizzard" />
-          <meta name="author" content="Logan Smith" />
-          <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1."
-          />
-        </Helmet>
+        <DocumentMeta {...meta} />
+        <Favicon url={['https://cdn.iconverticons.com/files/png/a12c1a69de0acc73_256x256.png']}/>
         <HomeHeaderBar />
         <HomePage />
         <BlackBar />
