@@ -19,7 +19,7 @@ const meta = {
       name: {
           keywords: 'overwatch,blizzard,dva,tracer,mei,widowmaker,gifts,goodies'
       }
-  }
+  },
   url: 'http://www.overwatchgoodies.com',
   image: 'https://bnetcmsus-a.akamaihd.net/cms/blog_header/mi/MIGMDUEK4S2N1496699695461.jpg'
 }
